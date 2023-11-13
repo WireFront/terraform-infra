@@ -1,0 +1,27 @@
+# Local .terraform directories
+**/.terraform/*
+.terraform*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Exclude override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Exclude CLI configuration files
+.terraformrc
+terraform.rc
+
+# Exclude the .tfplan files that are created while planning
+*.tfplan
+tfplan
+
+# Ignore any .zip files that might be used for Lambda function deployment
+*.zip
